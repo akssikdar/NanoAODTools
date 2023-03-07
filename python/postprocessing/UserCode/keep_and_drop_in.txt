@@ -1,0 +1,52 @@
+# this is a comment
+drop * # start with all
+keep event*
+keep run*
+keep luminosityBlock*
+keep fixedGridRhoFastjetCentralNeutral*
+keep PV_*
+keep Pileup_*
+keep LHEWeight_originalXWGTUP*
+keep Electron*
+keep nElectron*
+keep Muon*
+keep nMuon*
+keep Jet*
+keep nJet*
+keep SV_*
+keep nSV*
+keep MET*
+keep Flag*
+keep GenPart*
+keep nGenPart*
+keep Generator*
+keep LHEPdfWeight*
+keep nLHEPdfWeight*
+keep PSWeight*
+keep nPSWeight*
+keep LHEScaleWeight*
+keep nLHEScaleWeight*
+keep Tau*
+keep nTau*
+keep GenVisTau*
+keep nGenVisTau*
+
+# Triggers
+# 2016
+keep HLT_IsoMu24*
+# keep HLT_IsoTkMu24*
+keep HLT_Ele32_WPTight_Gsf*
+# keep HLT_Ele32_eta2p1_WPTight_Gsf*
+# keep HLT_Ele27_eta2p1_WPTight_Gsf*
+# 2017
+keep HLT_IsoMu27*
+keep HLT_Ele32_WPTight_Gsf_L1DoubleEG*
+keep HLT_Ele35_WPTight_Gsf*
+# 2018
+keep HLT_IsoMu24*
+keep HLT_Ele32_WPTight_Gsf*
+
+# drop jet_JESRelative*
+# drop jet_JESPileUp*
+# drop jet_JESAbsolute*
+drop HLT_IsoMu24_eta2p1_*

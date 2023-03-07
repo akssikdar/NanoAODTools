@@ -382,3 +382,8 @@ class btagSFProducer(Module):
 
 btagSF2016 = lambda: btagSFProducer("2016")
 btagSF2017 = lambda: btagSFProducer("2017")
+
+btagSFdeep2016 = lambda : btagSFProducer(era="Legacy2016",algo = 'deepcsv')
+btagSFdeep2017 = lambda : btagSFProducer(era="2017",algo = 'deepcsv')
+btagSFdeep2018 = lambda : btagSFProducer(era="2018",algo = 'deepcsv')
+
